@@ -13,4 +13,4 @@ jobs:
     needs: build
     steps:
     - name: Rodando me deploy
-      run: Deploy Dev deu bom
+      run: echo Deploy Dev deu bom
