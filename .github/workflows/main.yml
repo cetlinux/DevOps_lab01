@@ -8,9 +8,16 @@ jobs:
     steps:
     - name: Rodando meu Build
       run: echo Build deu bom
+      
   deploy-dev:
     runs-on: ubuntu-latest
     needs: build
     steps:
     - name: Rodando me deploy
       run: echo Deploy Dev deu bom
+  deploy-hml:
+    runs-on: ubuntu-latest
+    needs: deploy-dev
+    steps:
+    - name: Rodando meu deploy
+      run: echo Deploy HML deu bom
