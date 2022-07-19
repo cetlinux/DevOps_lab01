@@ -2,7 +2,7 @@ name: DevOps_la01
 on:
   workflow_dispach:
   
-jbos:
+jobs:
   build
     runs-on: ubuntu-latest
     steps:
