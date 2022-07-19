@@ -1,0 +1,10 @@
+name: DevOps_la01
+on:
+  workflow_dispach:
+  
+jbos:
+  build
+    runs-on: ubuntu-latest
+    steps:
+    = name: Rodando me Build
+      run: echo Build deu bom
